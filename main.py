@@ -2,8 +2,8 @@ from flask import Flask, render_template, request, redirect
 import smtplib
 import random
 
-MAIL = 'smartboympro@gmail.com'
-PASSWD = 'vuqxvwfxryyrrnoh'
+MAIL = 'your_email@gmail.com'
+PASSWD = 'your_password'
 PORT = 587
 SERVER = 'smtp.gmail.com'
 code = random.randint(100000, 999999)
@@ -12,7 +12,6 @@ Subject: OTP
 \n\n
 Your OTP code: {code}
 """
-
 
 app = Flask(__name__)
 
