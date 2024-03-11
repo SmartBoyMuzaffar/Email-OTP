@@ -1,1 +1,1 @@
-### Email OTP verificatin!!!
+### Email OTP verification!!!
